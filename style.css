@@ -1,0 +1,60 @@
+/* Step 3: Set the body background color */
+body{
+    background-color: tomato;
+    font-family: Arial, sans-serif;
+    padding: 20px;
+}
+
+/* Step 5: Apply dark blue text color to all elements with class="head" */
+.head {
+    color: darkblue;
+}
+
+/* Step 6: Give background color to the second heading styling with id="bglime"*/
+#bglime {
+    background-color: lime;
+    padding: 10px;
+}
+
+/* Step 7: Set the text color of "head" in 2nd heading to red */
+#bglime span{
+    color: red;
+}
+
+/* Step 8: Create paragraphs with white text using only the p tag selector */
+p {
+    color: white;
+    font-size: 16px;
+}
+
+/* Step 9: Customise the second paragraph with id 'para' to have green text */
+#para {
+    color: green;
+}
+
+/* Step 10: Set the text color of "paragraph" text in 2nd paragraph to black and increase font-size */
+#para span {
+    color: black;
+    font-size: 22px;
+    font-weight: bold;
+}
+
+/* Step 11:*/
+
+ul li:nth-child(1) span {
+    color: blue;
+    background-color: yellow;
+    text-decoration: underline;
+}
+ul li:nth-child(2) span {
+    color: blue;
+    background-color: rgba(0, 0, 255, 0.144);
+    text-decoration: underline;
+}
+
+ol li:nth-child(2){
+    color: blue;
+}
+ol li:nth-child(3){
+    color:red
+}
